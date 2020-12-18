@@ -1,0 +1,42 @@
+Prueba de ingreso a la compañia Quick
+
+Mi nombre es Javier Andres Arevalo Rolon soy ingeniero electronico de la Universidad Industrial de Santander y
+voy a explicar la estructura para la elaboracion de esta App.
+
+Debido a las condiciones del proyecto es necesario utilizar una arquitectura de software en la cual
+se puedan manejar bases de datos, registros escrituras y cambios de estado de la aplicacion, asi
+como tambien su estructura basica e interfaz de usuario.
+
+Primero se decide usar la arquitectura Bloc, mas conocida como patron Bloc, esta arquitectura es 
+un sistema de gestion de estado para Flutter recomendado por los desarrolladores de google, dicha arquitectura
+permite separar el backend del frontend, ademas de que es compatible con otras arquitecturas de software,
+lo anterior genera una gran ventaja permitiendo la incorporacion un equipo de trabajo en el proyecto, esta 
+arquitectura permite generar un codigo ordenado en el cual se puede gestionar las fallas o realizar cambios con
+facilidad, la representacion de esta arquitectura para el proyecto TestQuick es la siguiente.
+
+usuario-->
+
+        bloc-->       aca se manejan todas las conexiones stream de los datos con Firebase, ademas se alojan los metodos
+                      como login, registro de usuarios,envio de mensjaes, imagenes entre otro.
+
+        model-->      aca se reliza el modelo que utilizara el patron bloc para comunicar los datos de Firebase
+                      con los widgets realizados para la interfaz grafica del proyecto.
+
+        repository--> aca se manejan todas las funciones y conexiones con Firebase por separado como 
+                      CloudFirestore, Storage, Autenthication, Database, etc..
+
+        ui-->         aca se realiza toda la interfaz usuario conodcida como pantallas de registro, chat, ademas
+                      de los widgets creados en el proyecto para mejorar la funcionalidad.
+
+Apk
+
+La funcionalidad del apk esta realizada satisfactoriamente para los requisitos del proyecto a excepcion de el envio de audios
+debido a que el paquete de flutter "audio_picker" representa problemas en la dependencia de la version de kotlin, 
+pide versiones menores a 1.2.71 lo cual genera un conflicto en el proyecto al momento de generar el apk, lastimosamente
+no pude encontrar otro selector de audio para poder mostrarlo en el chat, entonces tome la opte por evitar ese parametro y
+cumplir con el resto de parametros requeridos en la prueba.
+
+Gracias por la atecion prestada.
+
+
+
