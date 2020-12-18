@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "151828042931",
+    "project_id": "chatapp-3060f",
+    "storage_bucket": "chatapp-3060f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151828042931:android:efbd37b042a9d5d8b24cc6",
+        "android_client_info": {
+          "package_name": "com.javier96.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151828042931-5m28r7590na1ip6tc5sq5koub6j93rbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.javier96.chat",
+            "certificate_hash": "802c05458d57c565b48e5949c26d62d6ab8cb50c"
+          }
+        },
+        {
+          "client_id": "151828042931-l94j7rpdp1mdsfh7l2dupqk0s5f1gaap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.javier96.chat",
+            "certificate_hash": "8ddd142480a181d742ee01b088dd05c6aa133fa5"
+          }
+        },
+        {
+          "client_id": "151828042931-m57euu108ek1oll6gb6edsqi0im301u2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.javier96.chat",
+            "certificate_hash": "40f372aee08593082a5fe2ab1c18c87325e8cf5c"
+          }
+        },
+        {
+          "client_id": "151828042931-9nr5k4s2vbi5k81bobkk16mdnqf2qnov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVaMNM6z3QFzvxZ3wy9xm64mtHOZLJPOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151828042931-9nr5k4s2vbi5k81bobkk16mdnqf2qnov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
